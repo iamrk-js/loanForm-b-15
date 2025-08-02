@@ -14,7 +14,7 @@ const routes: Routes = [
   { 
     path: 'apply-loan', 
     component: ApplyLoanComponent,
-    // canActivate: [AuthGuard] 
+    canActivate: [AuthGuard] 
   },
   { 
     path: 'admin/dashboard', 
